@@ -21,13 +21,6 @@
     margin: auto; left: 0; right: 0; top: 0; bottom: 0;
     box-shadow: 8px 8px 8px 0px rgb(148, 148, 148);
 }
-#section shadow {
-
-    display:flex;
-    position: absolute;
-    -webkit-box-shadow: 8px 8px 10 px 0 #554d4d; 
-}
-    
 
 .cuadrado{
     width: 100px; 
@@ -37,7 +30,7 @@
     position: relative;
     margin: auto; left: 0; right: 0; top: 0; bottom: 0;
     box-shadow: 8px 8px 8px 0px rgb(148, 148, 148);
-    }
+}
 
 .triangulo-tricolor {
     width: 0; 

@@ -3,7 +3,9 @@
     <head> <!--se agregan las caracteristicas de la pagina,archivos externos y estilos CSS -->
         <meta charset="UTF-8"> <!--nos permite reconocer caracteres especiales: tildes, comas, dos puntos-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--permite la codificacion de los caracteres -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- permite que se adapte a dispositivo -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- permite que se adapte a dispositivo;
+        meta name: la pag se adapta al tamaño de la pantalla (responsiv), 
+        content; width=device-width : es el ancho del la pantalla, initial-scale=1.0; para que no haga zoom -->
         <title>Figuras Geométricas</title> <!--titulo de la pestaña -->
         <link rel="stylesheet" type="text/CSS" href="./estilos.css" >
         <link rel="stylesheet" type="text/CSS" href="./menu.css" >
@@ -11,27 +13,23 @@
 
     </head>
     <body> <!--cuerpo de la web; digito la totalidad del código-->
-        <div class="inicio"> 
-            <nav>
+        <nav class="inicio"> 
+            <div> <!--representa la sección donde estará el menú principal de navegación-->
                 <a href="#"> enviar 1 </a>
                 <a href="#"> enviar 2 </a>
                 <a href="#"> enviar 3 </a>
-            </nav>
-        </div> 
-        <div class="menu">
-            <div class="circulo">
-                <id class="shadow"></id>
             </div>
-            <br>
-            <div class="cuadrado"></div>
-            <br>
-            <div class="triangulo-tricolor"></div>
-            <br>
-            <div class="color-chart"></div>
-        </div>
+        </nav> 
+            <div class="menu">
+                <section class="circulo"></section>
+                <br>
+                <section class="cuadrado"></section>
+                <br>
+                <section class="triangulo-tricolor"></section>
+                <br>
+                <section class="color-chart"></section>
+            </div>
             
-            
-
            
     </body>
 </html>

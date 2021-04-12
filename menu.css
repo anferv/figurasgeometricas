@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 a {
@@ -22,9 +21,6 @@ a {
     margin: 10px 10px 10px 10px;
     display: inline-block;
     padding: 10px 10px;
-    
-    
-    
 }
 
 a:hover {
@@ -32,7 +28,7 @@ a:hover {
    box-shadow: 4px 4px 4px 0px #ccc;
 }
 
-a:active{
+a:active {
     box-shadow:none
 }
  
