@@ -1,17 +1,38 @@
-nav {
-    background-color: black;
-    color: white;
-
- {   
+.inicio {
+    background-color: #000;
+    width: 80%;
+    height: auto;
+    margin: 20px 50px;
+    padding: 10px;
+    border: solid red;
+    border-radius: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 10%;
-    list-style: none;
+
 }
 
-li a:hover {
+a {
+    font-size: 20px;
     background-color: black;
-    border: 5px white;
-    border-radius:3px;
-    color: red
+    color: red;
+    border: solid #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    padding: 10px 10px;
+    
+    
+    
 }
+
+a:hover {
+   text-decoration: none;
+   box-shadow: 4px 4px 4px 0px #ccc;
+}
+
+a:active{
+    box-shadow:none
+}
+ 
