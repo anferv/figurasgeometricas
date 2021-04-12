@@ -1,0 +1,58 @@
+
+.opciones{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: thistle;
+    background-color: #0a0a0a;
+    position: relative;
+    margin: auto; left: 0; right: 0; top: 0; bottom: 0;
+}
+#section shadow {
+
+    display:flex;
+    position: absolute;
+    -webkit-box-shadow: 8px 8px 10 px 0 #554d4d; 
+}
+    
+
+.cuadrado{
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid  #0a7bdf;
+    background: #0a7bdf;
+    position: relative;
+    margin: auto; left: 0; right: 0; top: 0; bottom: 0; 
+    }
+
+.triangulo-tricolor {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid #2690ec;
+    border-top: 50px solid #f3f735;
+    border-bottom: 50px solid #e9312b;
+    margin: auto; left: 0; right: 0; top: 0; bottom: 0;
+}
+
+.color-chart {
+    width:0;
+     height:0;
+     border-right: 50px solid #ffffff ;
+     border-top: 50px solid #f3e354;
+     border-left: 50px solid #2a72f7;
+     border-bottom: 50px solid #c52020;
+     -webkit-border-radius: 100%;
+     border-radius: 100%;
+     margin: auto; left: 0; right: 0; top: 0; bottom: 0;

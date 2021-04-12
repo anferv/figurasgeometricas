@@ -1,0 +1,17 @@
+nav {
+    background-color: black;
+    color: white;
+
+ {   
+    display: flex;
+    align-items: center;
+    width: 10%;
+    list-style: none;
+}
+
+li a:hover {
+    background-color: black;
+    border: 5px white;
+    border-radius:3px;
+    color: red
+}
